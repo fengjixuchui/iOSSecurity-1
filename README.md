@@ -1,17 +1,19 @@
 # 《iOS安全测试与安全研究》
 
-![iOSSecurity](https://socialify.git.ci/iOSSecurity/iOSSecurity/image?description=1&font=Inter&forks=1&issues=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
+![iOSSecurity](https://socialify.git.ci/iOSSecurity/iOSSecurity/image?description=1&font=Inter&forks=1&issues=1&name=1&owner=0&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
 
 本项目是记录自己在学习iOS安全过程中遇到的优秀内容，包括优秀的项目代码或研究成果等。打破iOS的安全壁垒，直至封神！向伟大的乔布斯致敬！作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年7月17日，最近的一次更新时间为2022年11月01日。
+本项目创建于2021年7月17日，最近的一次更新时间为2022年12月13日。
 
 - [01-iOS安全资源](https://github.com/iOSSecurity/iOSSecurity#01-ios%E5%AE%89%E5%85%A8%E8%B5%84%E6%BA%90)
 - [02-iOS安全测试](https://github.com/iOSSecurity/iOSSecurity#02-ios%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95)
-- [03-iOS安全工具](https://github.com/iOSSecurity/iOSSecurity#03-ios%E5%AE%89%E5%85%A8%E5%B7%A5%E5%85%B7)
-- [04-iOS越狱研究](https://github.com/iOSSecurity/iOSSecurity#04-ios%E8%B6%8A%E7%8B%B1%E7%A0%94%E7%A9%B6)
-- [05-iOS逆向工程](https://github.com/iOSSecurity/iOSSecurity#05-ios%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)
-- [06-iOS安全老师](https://github.com/iOSSecurity/iOSSecurity#06-ios%E5%AE%89%E5%85%A8%E8%80%81%E5%B8%88)
+- [03-iOS安全研究](https://github.com/iOSSecurity/iOSSecurity#03-ios%E5%AE%89%E5%85%A8%E7%A0%94%E7%A9%B6)
+- [04-iOS安全工具](https://github.com/iOSSecurity/iOSSecurity#04-ios%E5%AE%89%E5%85%A8%E5%B7%A5%E5%85%B7)
+- [05-iOS开发基础](https://github.com/iOSSecurity/iOSSecurity#05-ios%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80)
+- [06-iOS代码审计](https://github.com/iOSSecurity/iOSSecurity#06-ios%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1)
+- [07-iOS病毒分析](https://github.com/iOSSecurity/iOSSecurity#07-ios%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90)
+- [08-iOS安全产品](https://github.com/iOSSecurity/iOSSecurity#08-ios%E5%AE%89%E5%85%A8%E4%BA%A7%E5%93%81)
 
 ## 01-iOS安全资源
 
@@ -36,8 +38,10 @@
 - [ ] [《iOS测试指南》](https://item.jd.com/10036928385136.html)@芈峮
 - [ ] [《大话移动APP测试：Android与 iOS应用测试指南》](https://item.jd.com/10037168212599.html)@陈晔
 - [ ] https://github.com/crifan/ios_security_protect
+- [ ] https://github.com/crifan/ios_security_protect
 
 二、iOS视频课程
+- [ ] https://www.uuid2.com/22640.html
 
 三、iOS培训演讲
 
@@ -47,11 +51,8 @@
 
 六、iOS论坛版块
 
-七、iOS漏洞程序
-- [ ] https://github.com/prateek147/DVIA-v2
-
-八、iOS其他资源
-- https://github.com/search?p=2&q=ios+Pentest&type=Repositories
+七、iOS其他资源
+- [ ] https://github.com/search?p=2&q=ios+Pentest&type=Repositories
 - [ ] [《iOS冰与火之歌系列》](https://github.com/zhengmin1989/MyArticles)@蒸米
 - [ ] https://github.com/silence0201/iOS-Reverse
 - [ ] https://github.com/silence0201/iOS-Category
@@ -80,7 +81,6 @@
 - [ ] https://github.com/Siguza/ios-resources
 - [ ] https://tttang.com/archive/1381
 - [ ] https://github.com/XLsn0w/Cydia
-- [ ] https://github.com/securing/IOSSecuritySuite
 - [ ] https://github.com/psychsecurity/iOS-Pentesting
 - [ ] https://github.com/Snifer/Pentesting-Mobile
 - [ ] https://github.com/allyomalley/pentest_scripts
@@ -88,6 +88,25 @@
 - [ ] https://github.com/cnmsec/MpaasPentestTool
 - [ ] https://github.com/dmayer/idb
 - [ ] https://github.com/RickeyBoy/Rickey-iOS-Notes
+- [ ] https://github.com/MobSF/Mobile-Security-Framework-MobSF
+- [ ] https://github.com/vaib25vicky/awesome-mobile-security
+- [ ] https://github.com/Cy-clon3/awesome-ios-security
+- [ ] https://github.com/tianjifou/iOS-security-attack-and-prevent
+- [ ] https://github.com/Naville/WTFJH
+- [ ] https://github.com/MTJailed/iOS-Security-Papers
+- [ ] https://github.com/Swordfish-Security/awesome-ios-security
+- [ ] https://github.com/ender01/iOS-application-security
+- [ ] https://github.com/vadim-a-yegorov/iOS-Internals-and-Security-Testing
+- [ ] https://github.com/harleo/iOSPriSec
+- [ ] https://github.com/sahad-mk/Fireprint
+- [ ] https://github.com/chrizel/iOS-Security-and-Privacy-Guide
+- [ ] https://github.com/NotSoEthical/iOS-Security-Research
+- [ ] https://github.com/DamianMarkowski/ios-security
+- [ ] https://github.com/yevh/iOS-Security-Scanners
+- [ ] https://github.com/paulveillard/cybersecurity-macOS-iOS-security
+- [ ] https://github.com/cyhe/iOSSecurity-Attack
+- [ ] https://github.com/LZRight123/GuardApp
+- [ ] https://github.com/wrlu/SecMobile
 
 ## 02-iOS安全测试
 
@@ -98,54 +117,101 @@
 - 奇安信iOS安全测试指南
 - 知道创宇iOS安全测试指南
 - 平安科技iOS应用漏洞Wiki
+- https://github.com/OWASP/owasp-mastg
 
 三、测试文档资源
 
 - https://www.yuque.com/ashineboy/rg8xcr/nromer
 
-## 03-iOS安全工具
+## 03-iOS安全研究
+
+- https://github.com/Dioq/ReverseOC
+- https://github.com/yahibo/iOSReverse
+
+iOS安全第一步，越狱研究！
+
+一、越狱研究
+- checkra1n
+- Fugu
+- h3lix
+- [Taurine](https://github.com/Odyssey-Team/Taurine)
+- [Fugu15](https://github.com/pinauten/Fugu15)
+
+二、安全机制
+
+三、代码混淆
+- https://github.com/netyouli/WHC_ConfuseSoftware
+- https://github.com/2621532542/iOS_NQConfuseTool
+
+四、逆向分析
+- https://github.com/ivRodriguezCA/RE-iOS-Apps
+- https://github.com/TinToSer/ios-RCE-Vulnerability
+- https://github.com/MTJailed/FWLR
+
+五、其他工具
+- https://github.com/PigPRS/SafeSwiftDemo
+
+## 04-iOS安全工具
 
 - [ ] https://github.com/ansjdnakjdnajkd/iOS
 - [ ] https://github.com/shakenetwork/needle
+- [ ] https://github.com/WithSecureLabs/needle
 - [ ] https://github.com/noobpk/frida-ios-hook
 - [ ] https://github.com/Lojii/Knot | 一款iOS端基于MITM的抓包工具 | 1.3k
 - [ ] https://github.com/gofmt/iOSSniffer
 - [ ] https://github.com/Urinx/iOSAppHook
 - [ ] https://github.com/gofmt/itool
-- [ ] https://github.com/majd/ipatool
+- [ ] https://github.com/majd/ipatool | ipa下载工具 | 2.9k
 - [ ] https://github.com/Hacktivation/iOS-Hacktivation-Toolkit
 - [ ] https://github.com/hughkli/Lookin
 - [ ] https://appsec-labs.com/inalyzer
+- [ ] https://github.com/ashishb/osx-and-ios-security-awesome
+- [ ] https://github.com/Dado1513/awesome-iOS-security-tools
+- [ ] https://github.com/iSECPartners/Introspy-iOS
+- [ ] https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security
+- [ ] https://github.com/kai5263499/osx-security-awesome
+- [ ] https://github.com/alibaba/iOSSecAudit
+- [ ] https://github.com/Soulghost/iblessing
+- [ ] https://github.com/aktsk/ipautil
 
-## 04-iOS越狱研究
+## 05-iOS开发基础
 
-iOS安全第一步，越狱研究！
+## 06-iOS代码审计
 
-一、checkra1n
+- https://github.com/felixgr/secure-ios-app-dev
+- https://github.com/insidersec/insider
 
-二、Fugu
+## 07-iOS病毒分析
 
-三、h3lix
+一、漏洞程序
+- https://github.com/prateek147/DVIA-v2
+- https://github.com/GeoSn0w/Myriam
+- https://github.com/GeoSn0w/iSecureOS
+- https://github.com/OWASP/igoat
+- https://github.com/WaTF-Team/WaTF-Bank
+- https://github.com/IdanBanani/iOS-Vulnerability-Research
+- https://github.com/oversecured/OversecuredVulnerableiOSApp
 
-四、其他
-- [ ] https://github.com/Odyssey-Team/Taurine
-- [ ] https://github.com/pinauten/Fugu15
+二、演示项目
+- https://github.com/everettjf/Yolo
 
-## 05-iOS逆向工程
+## 08-iOS安全产品
 
-- https://github.com/Dioq/ReverseOC
-- https://github.com/yahibo/iOSReverse
+- https://www.v2ex.com/t/488679
+- https://www.ijiami.cn/iosProtect
+- https://sec.xiaodun.com/product/ios
+- https://www.kiwisec.com/product/ios-encrypt.html
+- https://www.dingxiang-inc.com/business/ios
+- https://360.net/product-center/360-mobile-security/ios
+- https://docs.aiot.virbox.com/how-to-use/iosprotection
+- https://www.nagain.com/#/produCtenter/securityReinforce/ios
+- https://www.secidea.com/mars.html
 
-一、代码混淆
-- https://github.com/netyouli/WHC_ConfuseSoftware
-- https://github.com/2621532542/iOS_NQConfuseTool
-
-二、逆向分析
-
-## 06-iOS安全老师
+## 09-iOS安全老师
 
 此处排名不分先后，向自己在学习iOS安全过程中遇到的每一位优秀老师致敬。感谢感谢！
 
+- https://github.com/iOSSecurity
 - [念茜](https://blog.csdn.net/yiyaaixuexi)
 - [蒸米](https://github.com/zhengmin1989)
 - [唐巧](https://github.com/tangqiaoboy)
